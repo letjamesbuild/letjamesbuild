@@ -83,22 +83,22 @@
     <section class="writing-section">
       <h2 class="section-heading fade-in">Things I've learned</h2>
       <div class="writing-grid">
-        <a href="#" class="writing-card fade-in">
+        <button class="writing-card fade-in" data-article="zero-devs">
           <span class="writing-card-title">How I Build Production Software with Zero Developers</span>
           <span class="writing-card-arrow">&rarr;</span>
-        </a>
-        <a href="#" class="writing-card fade-in">
+        </button>
+        <button class="writing-card fade-in" data-article="ai-2026">
           <span class="writing-card-title">What Actually Works with AI in 2026</span>
           <span class="writing-card-arrow">&rarr;</span>
-        </a>
-        <a href="#" class="writing-card fade-in">
+        </button>
+        <button class="writing-card fade-in" data-article="distribution">
           <span class="writing-card-title">Distribution-First Thinking for AI Products</span>
           <span class="writing-card-arrow">&rarr;</span>
-        </a>
-        <a href="#" class="writing-card fade-in">
+        </button>
+        <button class="writing-card fade-in" data-article="ai-tools">
           <span class="writing-card-title">The Founder's Guide to Using AI Tools</span>
           <span class="writing-card-arrow">&rarr;</span>
-        </a>
+        </button>
       </div>
     </section>
 
@@ -115,6 +115,13 @@
 
   <div class="sticky-cta">
     <a href="#" class="sticky-cta-button">Book a Call</a>
+  </div>
+
+  <div class="article-overlay" id="articleOverlay">
+    <div class="article-header">
+      <button class="article-close" id="articleClose">&times;</button>
+    </div>
+    <div class="article-body" id="articleBody"></div>
   </div>
 
   <script src="js/main.js"></script>
