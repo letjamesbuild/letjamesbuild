@@ -132,7 +132,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 28px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .press-logo {
