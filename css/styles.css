@@ -398,4 +398,12 @@ body.article-open {
   .hero {
     padding: 40px 0 28px;
   }
+
+  .impact-item br {
+    display: none;
+  }
+
+  .press-logos {
+    max-width: none;
+  }
 }
