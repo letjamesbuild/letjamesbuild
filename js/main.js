@@ -33,11 +33,11 @@ const articles = {
   'zero-devs': {
     title: 'How I Build Production Software with Zero Developers',
     body: [
-      'I don\'t have a dev team. No CTO, no engineers, no contractors. I ship production software by myself using AI agents, and it works better than any team I\'ve managed.',
-      'The stack is simple: Claude for architecture and code, Cursor for implementation, Vercel for deployment. I write specs, not code. The spec is the product \u2014 if the spec is good, the output is good.',
-      'Most people think "no-code" when they hear this. It\'s not no-code. It\'s full-stack TypeScript, proper databases, real APIs. The difference is I\'m directing agents instead of writing every line myself.',
-      'The key insight: treat AI like a junior developer who never gets tired. Give it clear instructions, review its work, iterate fast. I can ship in a day what used to take a team a sprint.',
-      'This isn\'t about replacing developers. It\'s about what happens when a founder who understands product can suddenly also build it. The bottleneck disappears. You think it, you ship it, you learn from users \u2014 all in the same day.'
+      'I do not have a conventional dev team. I ship by writing specs, running agent workflows, reviewing aggressively, and keeping the architecture simple enough that one operator can own the whole system.',
+      'The work is still real software: FastAPI backends, React frontends, Chrome extensions, queues, databases, auth, CRM integrations, enrichment, deployment, monitoring, and boring production details. AI changes the throughput, not the need for judgment.',
+      'The pattern that works is spec → agent → review → verify → ship. I use agents for architecture exploration, implementation, QA, code review, and refactoring, but the product taste and final decisions stay human.',
+      'This is especially powerful for GTM products. You can go from a market hypothesis to a working lead magnet, enrichment pipeline, CRM import, and outbound workflow in days instead of quarters.',
+      'The lesson: the bottleneck is no longer access to developers. It is clarity of thought, distribution, and whether you can turn messy commercial insight into a system that actually runs.'
     ]
   },
   'ai-2026': {
