@@ -162,6 +162,54 @@ a {
   border-top: 1px solid #f0f0f0;
 }
 
+.proof-section {
+  padding: 8px 0 28px;
+  text-align: center;
+}
+
+.proof-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.proof-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  padding: 16px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  text-align: left;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.proof-card:hover {
+  background: #f0f0f0;
+  transform: translateY(-1px);
+}
+
+.proof-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.proof-card strong {
+  font-size: 15px;
+  color: #000;
+  line-height: 1.3;
+}
+
+.proof-card span:last-child {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.55;
+}
+
 .writing-section {
   padding: 8px 0 24px;
   text-align: center;
